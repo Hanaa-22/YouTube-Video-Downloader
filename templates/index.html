@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎥YouTube-Video-Downloader🎥</title>
+    <link rel="stylesheet" href="..\\static\\style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Téléchargez une vidéo YOUTUBE 🎥</h1>
+        <form id="downloadForm">
+            <input type="text" id="urlInput" placeholder="Entrez votre lien" required>
+            <button type="submit">Télécharger</button>
+        </form>
+
+        <div id="statusMessage"></div>
+        <div id="progressContainer" style="display: none;">
+            <p>Téléchargement en cours...</p>
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="..\\static\\script.js"></script>
+</body>
+
+</html>
