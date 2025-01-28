@@ -82,7 +82,7 @@ button:focus {
 #progressBar {
     height: 100%;
     width: 0%; 
-    background-color: linear-gradient(90deg, #ffc107, #6f00ff);
+    background: linear-gradient(90deg, #ffc107, #6f00ff);
     transition: width 0.5s ease-in-out; 
 }
 
